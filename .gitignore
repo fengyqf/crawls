@@ -57,13 +57,3 @@ docs/_build/
 target/
 
 
-config.ini
-*.bak
-*~
-*.swp
-.cache.txt
-a_*.txt
-config.py
-
-data/
-*/backup/
