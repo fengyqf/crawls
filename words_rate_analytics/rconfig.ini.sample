@@ -1,0 +1,6 @@
+[main]
+word_width_min=2
+word_width_max=5
+output_words_min_count=3
+
+debug=0
