@@ -181,7 +181,11 @@ if __name__ == '__main__':
         if i < pos:
             print 'skiped'
             continue
-        results=fetch.kw_search(kws[i][1])
-        fetch.write_result(data_dir+'/results.txt',results)
-        fetch.write_done_pos(data_dir+'/pos.txt',i)
-        sleep(10)
+        try:
+            results=fetch.kw_search(kws[i][1])
+            fetch.write_result(data_dir+'/results.txt',results)
+            fetch.write_done_pos(data_dir+'/pos.txt',i)
+            sleep(10)
+        except:
+            print 'something goes wrong, skip and go ahead'
+            pass
