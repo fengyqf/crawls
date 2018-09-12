@@ -37,3 +37,5 @@ crawl_nsfc
 crawl_h_index
 - None
 
+tab_ocr
+- None
