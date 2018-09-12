@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# from your baidu-ai-console   https://console.bce.baidu.com/ai/
+
+APP_ID=''
+API_KEY=''
+SECRET_KEY=''
