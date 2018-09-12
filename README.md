@@ -30,3 +30,10 @@ wos_paper_summary
 
 wos_realtime_if
 - None
+
+crawl_nsfc
+- None
+
+crawl_h_index
+- None
+
