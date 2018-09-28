@@ -5,7 +5,7 @@
 debug=1
 
 
-browser_driver_command_executor='http://192.168.7.113:4444/wd/hub'
+browser_driver_command_executor='http://192.168.7.102:4444/wd/hub'
 browser_profile_dir='/cygdrive/f/tempdown/crawl_firefox_profile/8jokogoy.default-1536211405626'
 
 start_url='https://isisn.nsfc.gov.cn/egrantindex/funcindex/prjsearch-list'

@@ -105,7 +105,7 @@ class Fetcher():
             print('search button not found')
             exit()
         ele[0].click()
-        sleep(2)
+        sleep(1)
 
         ele=driver.find_elements_by_xpath("//div[@id='grid_2']/table/tbody/tr[@name='rm_tr']/td[@id='rt_cy']/a[@href]")
         print 'search results count: %s'%len(ele)
@@ -136,7 +136,7 @@ class Fetcher():
         print 'ready'
         items=[]
         while True:
-            sleep(1)
+            sleep(0.2)
             ele=driver.find_elements_by_xpath("//table[@id='dataGrid1']/tbody/tr[@id]")
             if len(ele) < 1:
                 continue
@@ -152,7 +152,7 @@ class Fetcher():
                 e[0].click()
             else:
                 print '下页不可用，多页完成；关闭弹出层'
-                sleep(1)
+                sleep(0.2)
                 e=driver.find_elements_by_xpath("//input[@id='back']")
                 if len(e)>=1:
                     e[0].click()
